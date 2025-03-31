@@ -1,13 +1,17 @@
 function hola(nombre){
-    console.log(`bienvenido a mi canal ${nombre}`)
+    console.log(`bienvenido a mi canal ${nombre}`);
 }
 
-function saludarpersona(){
-     console.log(`hola compañero ${nombre}`)
+function saludarcliente(){
+     console.log(`hola compañero ${nombre}`);
 }
 
+function saludarpersonas(){
+    console.log(`hola persona ${nombre}`);
+}
 
 
 
 hola("rosandi")
-saludarpersona("rodolfo")
+saludarcliente("rodolfo")
+saludarpersonas("sandra")
